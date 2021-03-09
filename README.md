@@ -35,16 +35,19 @@ Bootscreen uses gcc, gnu make, and libong to operate. Install them with the comm
   ```sh
   sudo pacman -S build-essential libpng
   ```
+* Debian
+  ```sh
+  sudo apt-get install build-essential libpng
+  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/Ocrap7/Bootscreen.git
    cd Bootscreen
    ```
-3. Run the install script
+2. Run the install script
    ```sh
    sudo ./install.sh
    ```
