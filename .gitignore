@@ -1,3 +1,4 @@
 XORG/
 XORG1/
 *.o
+tmp.c
