@@ -1,0 +1,15 @@
+#!/bin/bash
+
+build() {
+    add_binary /bin/daikon_splash
+    add_dir /etc/daikonSplash
+    add_file /etc/daikonSplash/daikon.png
+    add_file /etc/daikonSplash/out
+    add_runscript
+}
+
+help() {
+    cat <<HELPEOF
+This hook creates a splash screen on startup.
+HELPEOF
+}
